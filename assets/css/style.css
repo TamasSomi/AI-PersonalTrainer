@@ -87,3 +87,46 @@ border-bottom: 1px solid #3a3a3a;
     width: 100%;
     background-size: cover;
 }
+
+
+/* media queries for header max-widt 840px*/
+
+.menu-icon{
+    display: none;
+}
+
+@media screen and (max-width: 840px) {
+    .menu-text{
+        display: none;
+    }
+    .menu-icon{
+        display: inline-block;
+        font-size: 130%;
+    }
+
+
+    #menu{
+        gap: 4rem;
+    }
+
+    #logo {
+        font-size: 170%;
+    }
+    
+    #menu, #logo{
+        line-height: 60px;
+    }
+}
+
+/* media queries for header max-widt 560px*/
+
+@media screen and (max-width: 560px) {
+    .header{
+        flex-direction: column;
+    }
+
+    #menu, #logo{
+        line-height: 40px;
+    }
+
+}
