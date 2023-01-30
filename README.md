@@ -42,3 +42,37 @@ The users dont't need to go to the Gym. They can exercise at home or in a park e
 * The images has alt attribute for accessibility.
 * The section looks good on any size of screen.   
 
+
+### Pricing Section ###
+
+* The purpose of this section is that the user can see the different options and thier features.
+* The comlete option is the best value so it's a bit highlited.
+* Both cards have a start button so the user can navigate to the sign up page. 
+* Both cards use Fontawsome icons for designe purposes.
+* The section is responsive and looks good on any size of screen.
+
+
+### Features Section ###
+
+* This section highlights the features of the application to help for the visitor to decide if it's suitable for them.
+* Using Fontawsome icons for designe purposes.
+* The section is responsive and looks good on any size of screen.
+
+### Sign Up Section ###
+
+* The users can fill the form and register here.
+* The form requires first name, last name and email address.
+* All the fields are mandatory.
+* The email field doesn't accept non valid emial.
+* The fields have placeholder attributes to help the user.
+* The section is responsive and looks good on any size of screen.
+
+### Gallery ###
+
+* The user can navigate to the gallery from the menu.
+* The site will open in a new tab and the user can navigate back to the main page easily through the nav bar.
+* The images are not streched or pixeled.
+* They have alt attribute for accessibility.
+* The images are appropriate to the content.
+* The gallery is responsive and looks good on any size of screen.
+
