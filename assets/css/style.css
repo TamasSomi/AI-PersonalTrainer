@@ -24,33 +24,37 @@ h1, h2 {
 }
 
 
-#logo{
-    float: left;
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: relative;
+  }
+  
+  #menu {
+    display: flex;
+    gap: 4.8rem;
+    list-style-type: none;
+    flex-direction: row-reverse;
+  }
+  
+  .header a {
+    text-decoration: none;
+  }
+  #logo {
     font-size: 260%;
-
-}
-
-#menu {
+    margin: 10px 0 0 10px;
+  }
+  
+  #menu {
     font-size: 120%;
     letter-spacing: 4px;
-}
-
-#menu li {
-    float: right;
-    list-style-type: none;
     margin-right: 30px;
-}
-
-#menu a {
-    text-decoration: none;
+  }
+  
+  #menu a {
     color: inherit;
-}
-
-/* To vertically align the menu and the logo */
-
-#menu, #logo{
-    line-height: 75px;
-}
+  }
 
 /*menu hover animation*/
 
@@ -78,6 +82,5 @@ border-bottom: 1px solid #3a3a3a;
     background: url('../images/pexels-li-sun-2294361\ \(1\).jpg') no-repeat center center;
     height: 600px;
     width: 100%;
-    z-index: 2;
     background-size: cover;
 }
