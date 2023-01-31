@@ -96,6 +96,7 @@ border-bottom: 1px solid #3a3a3a;
 #aside-box {
     display: flex;
     justify-content: space-between;
+    height: 400px;
 
 }
 
@@ -108,15 +109,15 @@ border-bottom: 1px solid #3a3a3a;
 }
 
 #aside-text {
-    width: 50%;
-    background-color: #E6F4FF;
-    font-size: 200%;
-    border: 1px solid black;
+    display: flex;
+    align-items: center;
+    width: 60%;
+    font-size: 160%;
     letter-spacing: 2px;
     text-align: center;
-    padding-top: 20px;
-    line-height: 1.7;
+    line-height: 1.3;
     background-color: #66BFFF;
+    padding: 0 10px;
 
 }
 
@@ -160,6 +161,7 @@ border-bottom: 1px solid #3a3a3a;
     #menu, #logo{
         line-height: 60px;
     }
+
 }
 
 /* media queries for header max-widt 560px*/
@@ -176,3 +178,4 @@ border-bottom: 1px solid #3a3a3a;
     
     }
 
+/* Media queries for Aside section max-width: 840px */
