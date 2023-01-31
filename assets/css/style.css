@@ -168,19 +168,7 @@ border-bottom: 1px solid #3a3a3a;
 
 }
 
-/* media queries for header max-widt 560px */
 
-@media screen and (max-width: 560px) {
-    .header{
-        flex-direction: column;
-    }
-
-    #menu, #logo{
-        line-height: 40px;
-    }
-
-    
-    }
 
 /* Media queries for Aside section max-width: 985px */
 
@@ -213,7 +201,7 @@ border-bottom: 1px solid #3a3a3a;
     #aside-text {
         font-size: 110%;
         width: 100%;
-        padding: 0;
+        padding: 15px 0;
         
     }
     
@@ -229,12 +217,26 @@ border-bottom: 1px solid #3a3a3a;
 
     #aside-text{
         font-size: 80%;
+        padding: 8px 0;
         
     }
 }
 
-/* Media queries for Aside section max-width: 550px */
-@media screen and (max-width: 550px){
+/* Media queries for max-width: 560px */
+
+/* Header */
+@media screen and (max-width: 560px){
+
+.header{
+    flex-direction: column;
+}
+
+#menu, #logo{
+     line-height: 40px;
+}
+
+/* Aside section */
+
 #aside-heading {
     font-size: 100%;
 }
@@ -242,4 +244,5 @@ border-bottom: 1px solid #3a3a3a;
 #aside-text{
     font-size: 60%;
 }
+
 }
