@@ -8,6 +8,8 @@
     border: none;
 }
 
+/*General Rules*/
+
 body {
     font-family: Rubik, sans-serif;
     font-weight: 300;
@@ -48,6 +50,7 @@ h1, h2 {
   #logo {
     font-size: 260%;
     margin-left: 10px;
+    color: #F25D27;
   }
   
   #menu, #logo {
@@ -87,6 +90,47 @@ border-bottom: 1px solid #3a3a3a;
     width: 100%;
     background-size: cover;
 }
+
+/*Aside*/
+
+#aside-box {
+    display: flex;
+    justify-content: space-between;
+
+}
+
+#aside-heading {
+   font-size: 300%;
+   text-align: center;
+   padding: 10vh 0 5vh 0;
+   color: #F25D27;
+   
+}
+
+#aside-text {
+    width: 50%;
+    background-color: #E6F4FF;
+    font-size: 200%;
+    border: 1px solid black;
+    letter-spacing: 2px;
+    text-align: center;
+    padding-top: 20px;
+    line-height: 1.7;
+    background-color: #66BFFF;
+
+}
+
+#aside-image {
+    width: 100%;
+    height: 400px;
+    background-image: url('../images/pexels-pixabay-416778.jpg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+  
+}
+
+
 
 
 /* media queries for header max-widt 840px*/
@@ -129,4 +173,6 @@ border-bottom: 1px solid #3a3a3a;
         line-height: 40px;
     }
 
-}
+    
+    }
+
