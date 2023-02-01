@@ -206,6 +206,13 @@ hr {
 /* Testimonials Section */
 
 
+#testimonials img {
+    width: 150px;
+    height: 150px;
+    object-fit:cover;
+    object-position:50% 10%;
+    border-radius: 5px;
+}
 
 
  /****************  MEDIA QUERIES   ***********************/
