@@ -70,7 +70,6 @@ h1, h2 {
 border-bottom: 1px solid #3a3a3a;
 }
 
-
 /*Active page underline*/
 .active{
     border-bottom: 1px solid #3a3a3a;
@@ -256,8 +255,6 @@ hr {
     padding: 30px 20px;
 }
 
-
-
 /* Pricing Section */
 
 #pricing-box{
@@ -356,11 +353,21 @@ hr {
     color: #F25D27;
   }
 
+  /* Sign Up Page */
+  /* For background image */
+  body, html {
+    height: 100%;
+  }
 
-
+  .form-box{
+    background-image: url('../images/form-background.jpg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    height: 100%;
+  }
 
  /****************  MEDIA QUERIES   ***********************/
-
 
 /* To hide the icons over 840px width */
 .menu-icon{
@@ -392,7 +399,7 @@ hr {
     }
 
 }
-             
+        
 /* Media queries for  max-width: 985px */
 
 /* Aside section (985px) */
