@@ -273,6 +273,7 @@ hr {
     text-align: center;
     border-radius: 5px;
     padding: 1%;
+    margin: 0 3vw;
 }
 
 .pricing-card ul {
@@ -311,6 +312,10 @@ hr {
     background-color: #66BFFF;
     border: 2px solid #F25D27;
     box-shadow: 2px 2px 5px 0px rgba(0, 0, 0, 1);
+}
+
+#pricing-starter{
+    border: 1px solid #3a3a3a;
 }
 
 .button {
@@ -372,10 +377,6 @@ hr {
 
 }
              
-
- 
-
-
 /* Media queries for  max-width: 985px */
 
 /* Aside section (985px) */
@@ -388,7 +389,7 @@ hr {
 
     #aside-text {
         
-        font-size: 120%;
+        font-size: 150%;
         letter-spacing: 2px;
         text-align: center;
         padding: 0 8px;
@@ -402,6 +403,16 @@ hr {
     margin-top: 20px;
 
 }
+
+/* Pricing section (985px) */
+
+#pricing-box{
+    flex-direction: column;
+    align-items: center;
+    row-gap: 5vh;
+}
+
+
 }
 
 /* Media queries for max-width: 785px */
@@ -410,7 +421,7 @@ hr {
 
 @media screen and (max-width: 785px) {
     #aside-heading {
-        font-size: 180%;
+        font-size: 175%;
         padding: 4vh 10px 2vh 10px;
     }
 
@@ -418,7 +429,7 @@ hr {
         flex-direction: column;
     }
     #aside-text {
-        font-size: 110%;
+        font-size: 130%;
         width: 100%;
         padding: 15px 0;
         
@@ -455,26 +466,65 @@ hr {
         justify-content: space-between;
         padding: 0 20px;
     }
-
-
-
-   
     
 }
 
-/* Media queries for Aside section max-width: 670px */
+/* Media queries for max-width: 670px */
+
+/* Aside section (670px)*/
 
 @media screen and (max-width: 670px) {
     #aside-heading {
-        font-size: 130%;
+        font-size: 150%;
         letter-spacing: 1px;
     }
 
     #aside-text{
-        font-size: 80%;
+        font-size: 110%;
         padding: 8px 0;
         
     }
+
+    /* Pricing Section (670px) */
+    
+    .pricing-card{
+        width: 300px;
+    }
+
+    .pricing-card ul {
+        font-size: 105%;
+    }
+    
+    .pricing-card ul i {
+        font-size: 125%;
+        padding: 0 8px;
+    }
+    
+    .pricing-card h4 {
+        font-size: 200%;
+        margin-bottom: 14px;
+    }
+    
+    .pricing-card p{
+        font-size: 170%;
+        margin-bottom: 16%;
+    }
+    
+    .pricing-card li{
+        margin-bottom: 8%;
+    }
+    
+    .pricing-card li:last-child{
+        margin-bottom: 12%;
+    }
+    
+    .button {
+        padding: 13px 28px;
+        font-size: 16px;
+        margin-bottom: 8px;
+        border-radius: 4px;
+      }
+    
 }
 
 /* Media queries for max-width: 560px */
@@ -493,11 +543,11 @@ hr {
 /* Aside section (560px) */
 
 #aside-heading {
-    font-size: 100%;
+    font-size: 110%;
 }
 
 #aside-text{
-    font-size: 60%;
+    font-size: 90%;
 }
 
 /* How it works section (560px) */
