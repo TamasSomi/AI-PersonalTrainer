@@ -275,6 +275,14 @@ hr {
 
 .pricing-card ul {
     list-style-type: none;
+    text-align: left;
+    font-size: 130%;
+}
+
+.pricing-card ul i {
+    font-size: 150%;
+    color: #F25D27;
+    padding: 0 10px;
 }
 
 .pricing-card h4 {
