@@ -262,7 +262,7 @@ hr {
 
 #pricing-box{
     display: flex;
-    margin-top: 10vh;
+    margin: 10vh 0 10vh 0;
     justify-content: space-evenly;
     letter-spacing: 2px;
 }
@@ -340,6 +340,21 @@ hr {
     transition: 0.5s;
     font-size: 120%;
 
+  }
+
+
+  /* Footer */
+
+  footer{
+    background-color: #66BFFF;
+    
+    font-size: 280%;
+    text-align: center; 
+  }
+
+  footer a i{
+    padding: 3vh 5vw;
+    color: #F25D27;
   }
 
 
