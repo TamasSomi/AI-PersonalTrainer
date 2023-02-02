@@ -212,6 +212,44 @@ hr {
     object-fit:cover;
     object-position:50% 10%;
     border-radius: 5px;
+    
+}
+
+.card{
+    width: 30%;
+    height: 35vh;
+    background-color: #66BFFF;
+    border: 3px solid #F25D27;
+    border-radius: 8px;
+
+}
+
+.card img {
+    display: block;
+    margin: 0 auto;
+    padding-top: 2%;
+}
+
+.card p {
+    text-align: center;
+    padding: 2% 6%;
+    line-height: 1.2;
+    letter-spacing: 1px;
+}
+
+.card h4 {
+    text-align: center;
+    padding-top: 2%;
+    line-height: 1.2;
+    letter-spacing: 1px;
+    font-size: 120%;
+    color: #F25D27;
+}
+.testimonials-box{
+    width: 70;
+    display: flex;
+    justify-content: space-evenly;
+    padding: 30px 20px;
 }
 
 
