@@ -406,6 +406,22 @@ hr {
     margin: 25px 0;
     width: 100%;
   }
+
+  .inner-box input[type=submit]{
+    background-color: #F25D27;
+    padding: 20px;
+    font-size: 100%;
+  }
+
+  .inner-box input[type=submit]:hover{
+    box-shadow: 2px 2px 5px 0px rgba(0, 0, 0, 1);
+    color: #F25D27;
+    background-color: #3a3a3a;
+    padding: 25px;
+    font-size: 105%;
+    transition: 0.5s;
+
+  }
  
 
  /****************  MEDIA QUERIES   ***********************/
