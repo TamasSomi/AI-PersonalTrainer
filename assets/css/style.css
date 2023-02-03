@@ -355,17 +355,34 @@ hr {
   }
 
   /* Sign Up Page */
+
   /* For background image */
+
   body, html {
     height: 100%;
   }
 
   .form-box{
+    display: flex;
+    row-gap: 10vw;
+    align-items: center;
     background-image: url('../images/form-background.jpg');
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
     height: 100%;
+  }
+
+  .inner-box{
+    background-color:#CCEAFF;
+    width: 800px;
+    height: 700px;
+    opacity: 0.4;
+    position: relative;
+    top: 30px;
+    margin-left: 10vw;
+    
+
   }
 
  /****************  MEDIA QUERIES   ***********************/
