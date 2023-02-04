@@ -381,6 +381,7 @@ hr {
   }
 
   .inner-box{
+    overflow: hidden;
     display: flex;
     justify-content: center;
     flex-direction: column;
@@ -389,29 +390,29 @@ hr {
     width: 40vw;
     font-size: 150%;
     margin: 80px 0 0 50px;
-    height: 80%;
-
-
+    height: 80vh;
   }
 
   .inner-box form {
     display: flex;
     flex-direction: column;
     align-items:flex-start;
-    padding: 30px;
-    width: 30%; 
+    padding: 15px;
+    width: 60%; 
   }
 
   .inner-box input{
     padding: 10px;
     margin: 25px 0;
     width: 100%;
+    border: 2px solid #3a3a3a;
   }
 
   .inner-box input[type=submit]{
     background-color: #F25D27;
     padding: 20px;
-    font-size: 100%;
+    font-size: 90%;
+    margin: 10px 0 0 0;
   }
 
   .inner-box input[type=submit]:hover{
@@ -419,7 +420,7 @@ hr {
     color: #F25D27;
     background-color: #3a3a3a;
     padding: 25px;
-    font-size: 105%;
+    font-size: 95%;
     transition: 0.5s;
 
   }
@@ -492,6 +493,17 @@ hr {
     align-items: center;
     row-gap: 5vh;
 }
+
+
+/* Sign up form (985px) */
+
+.inner-box form {
+    width: 80%; 
+  }
+
+  .inner-box{
+    width: 60vw;
+  }
 
 
 }
