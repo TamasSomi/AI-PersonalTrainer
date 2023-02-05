@@ -366,7 +366,6 @@ hr {
     margin-top: 15px;
     color: #F25D27;
     letter-spacing: 2px;
-    
   }
 
   .form-box{
@@ -389,8 +388,8 @@ hr {
     background-color:rgba(204, 234, 255, 0.5);
     width: 40vw;
     font-size: 150%;
-    margin: 80px 0 0 50px;
-    min-height: 90vh;
+    margin:100px 0 25px 50px;
+    min-height: 85vh;
   }
 
   .inner-box form {
@@ -617,6 +616,28 @@ hr {
         margin-bottom: 8px;
         border-radius: 4px;
       }
+
+      /* Sign up form (670px) */
+
+.inner-box form {
+    width: 80%; 
+  }
+
+  .inner-box{
+    width: 95vw;
+    margin: auto;
+    min-height: 100vh;
+  }
+
+  .form-box h2 {
+    font-size: 140%;
+  }
+
+  .inner-box input[type=submit]{
+    padding: 15px;
+    font-size: 80%;
+    margin: 10px 0 0 0;
+  }
     
 }
 
