@@ -358,8 +358,8 @@ hr {
 
   /* For background image */
 
-  body, html {
-    height: 100%;
+  html, body {
+    min-height: 100%;
   }
 
   .form-box h2 {
@@ -377,11 +377,11 @@ hr {
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
-    height: 100%;
+    min-height: 100%;
   }
 
   .inner-box{
-    overflow: hidden;
+    overflow: auto;
     display: flex;
     justify-content: center;
     flex-direction: column;
@@ -390,7 +390,7 @@ hr {
     width: 40vw;
     font-size: 150%;
     margin: 80px 0 0 50px;
-    height: 80vh;
+    min-height: 90vh;
   }
 
   .inner-box form {
