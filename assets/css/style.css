@@ -366,6 +366,8 @@ hr {
     margin-top: 15px;
     color: #F25D27;
     letter-spacing: 2px;
+    font-size: 200%;
+    margin-bottom: 30px;
   }
 
   .form-box{
