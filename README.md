@@ -116,3 +116,4 @@ The live link can be found here: https://tamassomi.github.io/AI-PersonalTrainer/
 - Text color: 3a3a3a;
 
 - I used Rubik for text an Oswald fonts for headres from: https://fonts.google.com/
+
