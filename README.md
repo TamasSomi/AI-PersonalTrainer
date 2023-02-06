@@ -27,7 +27,7 @@ The users dont't need to go to the Gym. They can exercise at home or in a park e
 * The image has alt attribute for accessibility.
 * The image was choosen with respect to the content of the page so it's aproppriate.
 
-![male exercise in a building](../AI-PersonalTrainer/assets/images/pexels-li-sun-2294361%20(1).jpg "Hero Image")
+![male exercise in a building](assets/images/hero-image.jpg "Hero Image")
 
 ### How it works section ###
 
