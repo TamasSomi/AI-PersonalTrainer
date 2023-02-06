@@ -65,22 +65,20 @@ h1, h2 {
     color: inherit;
   }
 
-  #menu a:hover{
-    color: #F25D27;
-  }
 
 /*menu hover animation*/
 
 #menu a:hover{
 border-bottom: 1px solid #3a3a3a;
+color: #F25D27;
 }
 
-/*Active page underline*/
+/* Active page underline */
 .active{
     border-bottom: 1px solid #3a3a3a;
 }
 
-/*Section hero*/
+/* Section hero */ 
 
 #section-hero {
     height: 600px;
@@ -366,6 +364,8 @@ hr {
     min-height: 100%;
   }
 
+ /**********************/
+
   .form-box h2 {
     margin-top: 15px;
     color: #F25D27;
@@ -427,7 +427,6 @@ hr {
     padding: 25px;
     font-size: 95%;
     transition: 0.5s;
-
   }
  
 
@@ -436,32 +435,6 @@ hr {
 /* To hide the icons over 840px width */
 .menu-icon{
     display: none;
-}
-
-/* media queries for header max-widt 840px*/
-
-@media screen and (max-width: 840px) {
-    .menu-text{
-        display: none;
-    }
-    .menu-icon{
-        display: inline-block;
-        font-size: 130%;
-    }
-
-
-    #menu{
-        gap: 4rem;
-    }
-
-    #logo {
-        font-size: 170%;
-    }
-    
-    #menu, #logo{
-        line-height: 60px;
-    }
-
 }
         
 /* Media queries for  max-width: 985px */
@@ -513,6 +486,33 @@ hr {
 
 }
 
+/* media queries max-width 840px*/
+
+/* Header (840px) */
+
+@media screen and (max-width: 840px) {
+    .menu-text{
+        display: none;
+    }
+    .menu-icon{
+        display: inline-block;
+        font-size: 130%;
+    }
+
+    #menu{
+        gap: 4rem;
+    }
+
+    #logo {
+        font-size: 170%;
+    }
+    
+    #menu, #logo{
+        line-height: 60px;
+    }
+
+}
+
 /* Media queries for max-width: 785px */
 
 /* Aside section (785px) */
@@ -530,16 +530,13 @@ hr {
         font-size: 130%;
         width: 100%;
         padding: 15px 0;
-        
     }
 
     /* How it works section (785px) */
 
     #how-it-works-container {
         flex-direction: column;
-        
     }
-
 
     #how-it-works-left, #how-it-works-right{
         width: 60%;
@@ -563,8 +560,7 @@ hr {
         align-items: center;
         justify-content: space-between;
         padding: 0 20px;
-    }
-    
+    }  
 }
 
 /* Media queries for max-width: 670px */
