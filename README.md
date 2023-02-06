@@ -102,3 +102,17 @@ The users dont't need to go to the Gym. They can exercise at home or in a park e
 
 
 The live link can be found here: https://tamassomi.github.io/AI-PersonalTrainer/
+
+
+## Future features ##
+
+- A survey to collect data from the users to improve the application.
+
+## Typography and color scheme ##
+
+- Main background color: #CCEAFF
+- Secondary background: color: #66BFFF
+- Logos and headers: #AC3B15
+- Text color: 3a3a3a;
+
+- I used Rubik for text an Oswald fonts for headres from: https://fonts.google.com/
