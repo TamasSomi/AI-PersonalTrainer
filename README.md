@@ -91,3 +91,14 @@ The users dont't need to go to the Gym. They can exercise at home or in a park e
 * The gallery is responsive and looks good on any size of screen.
 
 ![a screenshot of the gallery page](assets/images/gallery.jpg)
+
+### The Footer ###
+
+* The footer section includes links to the relevant social media sites for AI PersonalTrainer. The links will open to a new tab to allow easy navigation for the user.
+* The footer is valuable to the user as it encourages them to keep connected via social media.
+
+![a screenshot of the footer](assets/images/footer.jpg)
+
+
+
+The live link can be found here: https://tamassomi.github.io/AI-PersonalTrainer/
