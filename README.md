@@ -4,6 +4,8 @@ This page is a landing page of a fictive application.
 The applications AI algorithm creates a plan for exercise according to the received details from the user. (thier goals current shape and time that they can spend with exercising) .
 The users dont't need to go to the Gym. They can exercise at home or in a park etc.
 
+The live link can be found here: https://tamassomi.github.io/AI-PersonalTrainer/
+
 ![screenshots of the website on differend screen sizes](assets/images/responsice-screenshot.jpg "Responsive Screenshot")
 
 ## User Stories ##
@@ -13,6 +15,8 @@ The users dont't need to go to the Gym. They can exercise at home or in a park e
 * As a visiting user i would like to see the features of the particular website why should i choose that one.
 * As a visiting user i would like to see the prices.
 * As a visiting user i would like to see what people think of the application whom already tried.
+
+- - - -
 
 ## Features ##
 
@@ -84,7 +88,7 @@ The users dont't need to go to the Gym. They can exercise at home or in a park e
 ### Gallery ###
 
 * The user can navigate to the gallery from the menu.
-* The site will open in a new tab and the user can navigate back to the main page easily through the nav bar.
+* The user can navigate back to the main page easily through the nav bar or clicking on the logo.
 * The images are not streched or pixeled.
 * They have alt attribute for accessibility.
 * The images are appropriate to the content.
@@ -103,19 +107,26 @@ The users dont't need to go to the Gym. They can exercise at home or in a park e
 
 The live link can be found here: https://tamassomi.github.io/AI-PersonalTrainer/
 
+- - - -
 
 ## Future features ##
 
 - A survey to collect data from the users to improve the application.
 
-## Typography and color scheme ##
+- - - -
+
+## Typography, Color Scheme ans Accessibility ##
 
 - Main background color: #CCEAFF
 - Secondary background: color: #66BFFF
 - Logos and headers: #AC3B15
 - Text color: 3a3a3a;
-
 - I used Rubik for text an Oswald fonts for headres from: https://fonts.google.com/
+- Color contrast checked and no alerts or errors for contrast
+(The error and alerts are because wave did not recognised as text the Font Awsome icons in the nav links for the responsive header.)
+![a screenshot of wave result](assets/images/wave.webp)
+
+- - - -
 
 ## Wireframes ##
 
@@ -133,3 +144,50 @@ Markup : <details>
            <summary>Mobile wireframe</summary>
            ![mobile wireframe](assets/images/mobilewf.png)
          </details>
+
+- - - -
+
+## Design and techniques ##
+
+* When i started the project i made some wireframes by drawing and implemented on Balsamic (Does not look so good, i need to improve or next time might use photoshop instead.)
+* After i designed the page using HTML and CSS on Gitpod. For hosting the page i use Github.
+
+- - - -
+
+## Testing and bugs ##
+
+### Unfixed Bugs ###
+
+* Images in the gallery load a bit slowly. The problem could be solved by reducing teh files with squoosh but as it is just a learning project i think it would take too many time to upload and reduce and replace them in github as well one by one.
+
+### Responsiveness ##
+
+* All pages have been tested for screens from 240px and up.
+* I used Chrome Developer Tool for testing and i tested all the pages with all the avialable phone simulations both in verical and horizontal mode.
+* The site is responsive on any screensizes and the images are not pixelled or stretched.
+
+### Code Validation ###
+
+* HTML: The code passed the official [W3C validator](https://validator.w3.org/nu/?doc=https%3A%2F%2Ftamassomi.github.io%2FAI-PersonalTrainer%2F "W3C validator")
+
+* CSS The css code passed the official [Jigsaw validator](https://jigsaw.w3.org/css-validator/validator?uri=https%3A%2F%2Ftamassomi.github.io%2FAI-PersonalTrainer%2F&profile=css3svg&usermedium=all&warning=1&vextwarning=&lang=en "Jigsaw validator")
+
+### Deployment ###
+
+The page was deployed to Github pages using gitpod.
+
+* All files and code has been submitted to Github pages using the 'git add', 'git commit' and 'git push' commands. Published the site by opening the settings - pages - main branch options.
+
+## Credits ##
+
+* The layout is inspired by [Love Running Project](https://github.com/TamasSomi/love-running "Love Running Project") (How it works section) and helped me a lot with the form and the media queries.
+* The icons used from  [Font Awsome](https://fontawesome.com/ "Font Awsome")
+* I learnt css Flexbox and Grid from [CodeCAdemy](https://www.codecademy.com/learn/learn-css-flexbox-and-grid "CodeCademy")
+* [W3Scools](https://www.w3schools.com/ "W3Scools") helped me a lot when i struggled with something.
+
+### Media ###
+
+* I downloaded all the images from [Pexels](https://www.pexels.com/ "Pexels")
+* The icons from [Font Awsome](https://fontawesome.com/ "Font Awsome")
+* The fonts i used [Google Fonts](https://fonts.google.com/ "Google Fonts")
+* I found the colors on [Adobe Color Creator](https://color.adobe.com/create/color-wheel# "Adobe Color Creator")
