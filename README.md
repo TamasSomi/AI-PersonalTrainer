@@ -119,11 +119,17 @@ The live link can be found here: https://tamassomi.github.io/AI-PersonalTrainer/
 
 ## Wireframes ##
 
-![desktop wireframe](assets/images/desktopwf.png)
+Basic wireframes were created using:  [Balsamiq](https://balsamiq.com/wireframes/?gclid=CjwKCAiAioifBhAXEiwApzCztmrYyxAPBxLRN4Bwln_l2_qnf61z9Q9qNSW19hUH5Altv9asetRaQBoChAgQAvD_BwE "Balsamiq"). 
 
-![mobile wireframe][mobile wireframe]
+During the deployment proccess i changed a few elements.
+
+Markup : <details>
+           <summary>Wireframe for desktop and tablets</summary>
+           ![desktop wireframe](assets/images/desktopwf.png)
+         </details>
 
 
-
-
-[mobile wireframe]: assets/images/mobilewf.png
+Markup : <details>
+           <summary>Mobile wireframe</summary>
+           ![mobile wireframe](assets/images/mobilewf.png)
+         </details>

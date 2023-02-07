@@ -222,7 +222,7 @@ hr {
     letter-spacing: 1px;
 }
 
-.card h4 {
+.card h3 {
     text-align: center;
     padding-top: 2%;
     line-height: 1.2;
@@ -272,7 +272,7 @@ hr {
     margin-bottom: 20px;
 }
 
-.pricing-card p{
+.price{
     font-weight: bold;
     font-size: 220%;
     margin-bottom: 20%;
@@ -630,7 +630,7 @@ hr {
         margin-bottom: 14px;
     }
     
-    .pricing-card p{
+    .price{
         font-size: 170%;
         margin-bottom: 16%;
     }
@@ -757,7 +757,7 @@ hr {
         font-size: 150%;
     }
     
-    .pricing-card p{
+    .price{
         font-size: 150%;
     }
 
