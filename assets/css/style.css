@@ -9,7 +9,6 @@
 }
 
 /*General Rules*/
-
 body {
     font-family: Rubik, sans-serif;
     font-weight: 300;
@@ -18,7 +17,6 @@ body {
 }
 
 /* heading and logo */
-
 h1, h2 {
     font-family: Oswald, sans-serif;
     letter-spacing: 4px;
@@ -37,7 +35,7 @@ h1, h2 {
     width: 100%;
   }
   
-  #menu {
+  .menu {
     display: flex;
     gap: 4.8rem;
     list-style-type: none;
@@ -50,25 +48,23 @@ h1, h2 {
   .header a {
     text-decoration: none;
   }
-  #logo {
+  .logo {
     font-size: 260%;
     margin-left: 10px;
     color: #AC3B15;
   }
   
-  #menu, #logo {
-    line-height: 75px;
-    
+  .menu, .logo {
+    line-height: 75px;  
   }
   
-  #menu a {
+  .menu a {
     color: inherit;
   }
 
 
 /*menu hover animation*/
-
-#menu a:hover{
+.menu a:hover{
 border-bottom: 1px solid #3a3a3a;
 color: #AC3B15;
 }
@@ -78,41 +74,34 @@ color: #AC3B15;
     border-bottom: 1px solid #3a3a3a;
 }
 
-/* Section hero */ 
-
-#section-hero {
+.section-hero {
     height: 600px;
     width: 100%;
     overflow: hidden;
     position: relative;
-    
 }
 
-#hero-image{
+.hero-image{
     background: url('../images/hero-image.jpg') no-repeat center center;
     height: 600px;
     width: 100%;
     background-size: cover;
 }
 
-/* Aside Section */
-
-#aside-box {
+.aside-box {
     display: flex;
     justify-content: space-between;
     height: 400px;
-
 }
 
-#aside-heading {
+.aside-heading {
    font-size: 300%;
    text-align: center;
    padding: 10vh 0 5vh 0;
-   color: #AC3B15;
-   
+   color: #AC3B15; 
 }
 
-#aside-text {
+.aside-text {
     display: flex;
     align-items: center;
     width: 60%;
@@ -124,39 +113,34 @@ color: #AC3B15;
     padding: 0 10px;
 }
 
-#aside-text p{
+.aside-text p{
     padding: 0 10px;
-
 }
 
-#aside-image {
+.aside-image {
     width: 100%;
     height: 400px;
     background-image: url('../images/asideimage.jpg');
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
-  
 }
 
-/* How it works section */
-
-#how-it-works-heading, #testimonials h2, .pricing-heading {
+.how-it-works-heading, .testimonials h2, .pricing-heading {
     margin: 80px 0 10px 0;
     color: #AC3B15;
     font-size: 250%;
     text-align: center;
-
 }
 
-#how-it-works-container {
+.how-it-works-container {
     display: flex;
     justify-content: space-between;
     align-items: center;
     margin-bottom: 30px;
 }
 
-#how-it-works-left {
+.how-it-works-left {
     height: 400px;
     width: 20%;
     display: flex;
@@ -166,11 +150,10 @@ color: #AC3B15;
     margin-left: 4vw;
 }
 
-#how-it-works-container h3 {
+.how-it-works-container h3 {
     color: #AC3B15;
     font-size: 170%;
     text-align: center;
-
 }
 
 hr {
@@ -179,12 +162,12 @@ hr {
     margin: 10px 0;
 }
 
-#how-it-works-container p {
+.how-it-works-container p {
     font-size: 110%;
     text-align: center;
 }
 
-#how-it-works-right {
+.how-it-works-right {
     height: 400px;
     width: 20%;
     display: flex;
@@ -194,7 +177,7 @@ hr {
     margin-right: 4vw;
 }
 
-#how-it-works-middle {
+.how-it-works-middle {
     background-image: url('../images/how-image.jpg');
     background-repeat: no-repeat;
     background-position: center;
@@ -207,19 +190,16 @@ hr {
     box-shadow: 2px 2px 5px 0px rgba(0, 0, 0, 1);
 }
 
-/* Testimonials Section */
-
-#testimonials h2 {
+.testimonials h2 {
     text-align: center;
 }
 
-#testimonials img {
+.testimonials img {
     width: 150px;
     height: 150px;
     object-fit:cover;
     object-position:50% 10%;
-    border-radius: 5px;
-    
+    border-radius: 5px;  
 }
 
 .card{
@@ -227,7 +207,6 @@ hr {
     background-color: #66BFFF;
     border: 3px solid #AC3B15;
     border-radius: 8px;
-
 }
 
 .card img {
@@ -251,6 +230,7 @@ hr {
     font-size: 120%;
     color: #AC3B15;
 }
+
 .testimonials-box{
     width: 90%;
     display: flex;
@@ -258,9 +238,7 @@ hr {
     padding: 30px 20px;
 }
 
-/* Pricing Section */
-
-#pricing-box{
+.pricing-box{
     display: flex;
     margin: 10vh 0 10vh 0;
     justify-content: space-evenly;
@@ -308,13 +286,13 @@ hr {
     margin-bottom: 15%;
 }
 
-#pricing-complete{
+.pricing-complete{
     background-color: #66BFFF;
     border: 2px solid #AC3B15;
     box-shadow: 2px 2px 5px 0px rgba(0, 0, 0, 1);
 }
 
-#pricing-starter{
+.pricing-starter{
     border: 1px solid #3a3a3a;
 }
 
@@ -332,18 +310,13 @@ hr {
   }
 
   /* Hover animation for buttons */
-
   .button:hover{
     box-shadow: 2px 2px 5px 0px rgba(0, 0, 0, 1);
     color: #AC3B15;
     background-color: white;
     transition: 0.5s;
     font-size: 120%;
-
   }
-
-
-  /* Footer */
 
   footer{
     background-color: #66BFFF;
@@ -357,13 +330,10 @@ hr {
   }
 
   /********** Sign Up Page **********/
-
   /* For background image */
-
   html, body {
     min-height: 100%;
   }
-
  /**********************/
 
   .form-box h2 {
@@ -430,17 +400,16 @@ hr {
   }
  
   /********** Gallery  **************/
-
-  #photos{
+  .photos{
     margin: 100px 30px;
-  }
+    }
 
   .image-wrapper{
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     grid-template-rows: repeat(4, 3fr);
     grid-gap: 15px;
-  }
+    }
 
   .image-wrapper img {
     width: 100%;
@@ -448,7 +417,7 @@ hr {
     min-height: 300px;
     object-fit: cover;
     display: block;
-}
+    }
  /****************  MEDIA QUERIES   ***********************/
 
 /* To hide the icons over 840px width */
@@ -457,58 +426,50 @@ hr {
 }
         
 /* Media queries for  max-width: 985px */
-
 /* Aside section (985px) */
-
 @media screen and (max-width: 985px) {
-    #aside-heading {
+    .aside-heading {
         font-size: 220%;
         padding: 5vh 10px 2.5vh 10px;
     }
 
-    #aside-text {
-        
+    .aside-text {
         font-size: 150%;
         letter-spacing: 2px;
         text-align: center;
         padding: 0 8px;
-}
-/* How it works section (985px) */
+    }
 
-#how-it-works-middle {
+/* How it works section (985px) */
+.how-it-works-middle {
     width: 350px;
     height: 350px;
     border-radius: 50%;
     margin-top: 20px;
-
-}
+    }
 
 /* Pricing section (985px) */
-
-#pricing-box{
+.pricing-box{
     flex-direction: column;
     align-items: center;
     row-gap: 5vh;
-}
-
+    }
 
 /* Sign up form (985px) */
-
 .inner-box form {
     width: 80%; 
   }
 
-  .inner-box{
+.inner-box{
     width: 60vw;
   }
 
   /* Gallery (985px) */
-
-  #photos{
+.photos{
     margin: 80px 20px;
-  }
+}
 
-  .image-wrapper{
+.image-wrapper{
     grid-template-columns: repeat(2, 1fr);
     grid-template-rows: 2fr;
     grid-gap: 15px;
@@ -516,9 +477,7 @@ hr {
 }
 
 /* media queries max-width 840px*/
-
 /* Header (840px) */
-
 @media screen and (max-width: 840px) {
     .menu-text{
         display: none;
@@ -528,52 +487,47 @@ hr {
         font-size: 130%;
     }
 
-    #menu{
+    .menu{
         gap: 4rem;
     }
 
-    #logo {
+    .logo {
         font-size: 170%;
     }
     
-    #menu, #logo{
+    .menu, .logo{
         line-height: 60px;
     }
-
 }
 
 /* Media queries for max-width: 785px */
-
 /* Aside section (785px) */
-
 @media screen and (max-width: 785px) {
-    #aside-heading {
+    .aside-heading {
         font-size: 175%;
         padding: 4vh 10px 2vh 10px;
     }
 
-    #aside-box{
+    .aside-box{
         flex-direction: column;
     }
-    #aside-text {
+    .aside-text {
         font-size: 130%;
         width: 100%;
         padding: 15px 0;
     }
 
     /* How it works section (785px) */
-
-    #how-it-works-container {
+    .how-it-works-container {
         flex-direction: column;
     }
 
-    #how-it-works-left, #how-it-works-right{
+    .how-it-works-left, .how-it-works-right{
         width: 60%;
     }
 
     /* Testimonials section (785px) */
-
-    #testimonials h2 {
+    .testimonials h2 {
         margin-bottom: 25px;
     }
 
@@ -592,8 +546,7 @@ hr {
     }
 
     /* Gallery (785px) */
-
-    #photos{
+    .photos{
         margin: 60px 15px;
       }
     
@@ -606,23 +559,19 @@ hr {
 }
 
 /* Media queries for max-width: 670px */
-
 /* Aside section (670px)*/
-
 @media screen and (max-width: 670px) {
-    #aside-heading {
+    .aside-heading {
         font-size: 150%;
         letter-spacing: 1px;
     }
 
-    #aside-text{
+    .aside-text{
         font-size: 110%;
-        padding: 8px 0;
-        
+        padding: 8px 0;   
     }
 
-    /* Pricing Section (670px) */
-    
+    /* Pricing Section (670px) */ 
     .pricing-card{
         width: 300px;
     }
@@ -659,34 +608,31 @@ hr {
         font-size: 16px;
         margin-bottom: 8px;
         border-radius: 4px;
-      }
+    }
 
       /* Sign up form (670px) */
-
-.inner-box form {
+    .inner-box form {
     width: 80%; 
-  }
+    }
 
-  .inner-box{
+   .inner-box{
     width: 95vw;
     margin: auto;
     min-height: 100vh;
-  }
+   }
 
   .form-box h2 {
     font-size: 140%;
-  }
+   }
 
   .inner-box input[type=submit]{
     padding: 15px;
     font-size: 80%;
     margin: 10px 0 0 0;
-  }
-    
+  }   
 }
 
 /* Media queries for max-width: 560px */
-
 /* Header */
 @media screen and (max-width: 560px){
 
@@ -694,41 +640,38 @@ hr {
     flex-direction: column;
 }
 
-#menu, #logo{
+.menu, .logo{
      line-height: 40px;
 }
 
 /* Aside section (560px) */
-
-#aside-heading {
+.aside-heading {
     font-size: 110%;
 }
 
-#aside-text{
+.aside-text{
     font-size: 90%;
 }
 
 /* How it works section (560px) */
-
-#how-it-works-heading {
+.how-it-works-heading {
     margin: 64px 0 8px 0;
     font-size: 200%;
 }
 
-#how-it-works-container h3 {
+.how-it-works-container h3 {
     font-size: 136%;
     text-align: center;
 }
 
-#how-it-works-container p {
+.how-it-works-container p {
     font-size: 90%;
     text-align: center;
 }
 
 /* Testimonials (560px) */
-
-#testimonials h2 {
+.testimonials h2 {
     font-size: 170%;
     letter-spacing: 2px;
-}
+    }
 }
