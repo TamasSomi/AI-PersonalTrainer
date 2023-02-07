@@ -117,3 +117,13 @@ The live link can be found here: https://tamassomi.github.io/AI-PersonalTrainer/
 
 - I used Rubik for text an Oswald fonts for headres from: https://fonts.google.com/
 
+## Wireframes ##
+
+![desktop wireframe](assets/images/desktopwf.png)
+
+![mobile wireframe][mobile wireframe]
+
+
+
+
+[mobile wireframe]: assets/images/mobilewf.png
