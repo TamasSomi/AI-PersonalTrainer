@@ -734,7 +734,7 @@ hr {
     }
 
     .testimonials h2 {
-        font-size: 130%;
+        font-size: 110%;
     }
 
     .pricing-heading{
@@ -768,5 +768,11 @@ hr {
         font-size: 120%;
         margin:100px 0 50px;
         min-height: 100vh;
+      }
+
+      .menu {
+        gap: 1.5rem;
+        font-size: 90%;
+        letter-spacing: 1px;
       }
 }
