@@ -266,7 +266,7 @@ hr {
     padding: 0 10px;
 }
 
-.pricing-card h4 {
+.pricing-card h4, .pricing-card h3 {
     font-size: 240%;
     color: #AC3B15;
     margin-bottom: 20px;
@@ -625,7 +625,7 @@ hr {
         padding: 0 8px;
     }
     
-    .pricing-card h4 {
+    .pricing-card h4, .pricing-card h3 {
         font-size: 200%;
         margin-bottom: 14px;
     }
@@ -753,7 +753,7 @@ hr {
         font-size: 100%;
     }
     
-    .pricing-card h4 {
+    .pricing-card h4, .pricing-card h3 {
         font-size: 150%;
     }
     
