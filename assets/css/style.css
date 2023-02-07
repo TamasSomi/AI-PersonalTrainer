@@ -418,7 +418,35 @@ hr {
     object-fit: cover;
     display: block;
     }
+
+    /*Confirmation Page */
+    .confirmation-box{
+        margin: 15% auto;
+        text-align:center;
+        font-size: 210%;
+    }
+
+    .confirmation-text{
+        color: #AC3B15;
+        padding: 5%;
+    }
+
+    .back-to-homepage{
+        text-decoration: none;
+        color: #AC3B15;
+        padding: 1.5%;
+        background-color: #66BFFF;
+        border: 2px solid #AC3B15;
+        border-radius: 8px;
+    }
+
+    .back-to-homepage:hover{
+        box-shadow: 2px 2px 5px 0px rgba(0, 0, 0, 1);
+        transition: 0.5s;
+    }
+
  /****************  MEDIA QUERIES   ***********************/
+
 
 /* To hide the icons over 840px width */
 .menu-icon{
