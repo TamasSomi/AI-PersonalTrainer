@@ -22,6 +22,7 @@ h1, h2 {
     color: #252525;
 }
 
+/* Header positioning and style */
 .header {
     display: flex;
     justify-content: space-between;
@@ -101,6 +102,7 @@ color: #AC3B15;
    color: #AC3B15; 
 }
 
+/* Aside text positioning and style */
 .aside-text {
     display: flex;
     align-items: center;
@@ -177,6 +179,7 @@ hr {
     margin-right: 4vw;
 }
 
+/* How it works image style */
 .how-it-works-middle {
     background-image: url('../images/how-image.jpg');
     background-repeat: no-repeat;
@@ -296,7 +299,8 @@ hr {
     border: 1px solid #3a3a3a;
 }
 
-.button {
+/* Buttons style */
+.start-exercise-btn {
     background-color: #AC3B15;
     border: none;
     color: white;
@@ -344,6 +348,7 @@ hr {
     margin-bottom: 30px;
   }
 
+  /* Form background image*/
   .form-box{
     display: flex;
     row-gap: 6vh;
@@ -354,7 +359,7 @@ hr {
     background-size: cover;
     min-height: 100%;
   }
-
+  /* Form positioning and syle */
   .inner-box{
     overflow: auto;
     display: flex;
@@ -505,10 +510,10 @@ hr {
     grid-gap: 15px;
   }
 
-      /*Confirmation Page  (985px)*/
-      .confirmation-box{
-        font-size: 170%;
-    }
+  /*Confirmation Page  (985px)*/
+.confirmation-box{
+    font-size: 170%;
+  }
 }
 
 /* media queries max-width 840px*/
@@ -536,8 +541,8 @@ hr {
 
      /*Confirmation Page  (840px)*/
     .confirmation-box{
-            font-size: 150%;
-        }
+        font-size: 150%;
+    }
 }
 
 /* Media queries for max-width: 785px */
@@ -643,7 +648,7 @@ hr {
         margin-bottom: 12%;
     }
     
-    .button {
+    .start-exercise-btn {
         padding: 13px 28px;
         font-size: 16px;
         margin-bottom: 8px;

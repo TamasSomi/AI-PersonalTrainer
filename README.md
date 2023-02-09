@@ -109,9 +109,10 @@ The live link can be found here: https://tamassomi.github.io/AI-PersonalTrainer/
 
 - - - -
 
-## Future features ##
+## Future features and improvements ##
 
 - A survey to collect data from the users to improve the application.
+- As this is my first project i just reallised in the end that i could implement a consistant spacing system. In the future i will improve the site with that.
 
 - - - -
 
