@@ -6,7 +6,6 @@
     padding: 0;
     border: none;
 }
-
 /*General Rules*/
 body {
     font-family: Rubik, sans-serif;
@@ -14,14 +13,12 @@ body {
     color: #3a3a3a;
     background-color: #CCEAFF;
 }
-
 /* heading and logo */
 h1, h2 {
     font-family: Oswald, sans-serif;
     letter-spacing: 4px;
     color: #252525;
 }
-
 /* Header positioning and style */
 .header {
     display: flex;
@@ -34,9 +31,8 @@ h1, h2 {
     background-color: #CCEAFF;
     width: 100%;
     border-bottom: 2px solid #AC3B15;
-  }
-  
-  .menu {
+}
+.menu {
     display: flex;
     gap: 4.8rem;
     list-style-type: none;
@@ -44,64 +40,53 @@ h1, h2 {
     font-size: 120%;
     letter-spacing: 4px;
     margin-right: 30px;
-  }
-  
-  .header a {
+}
+.header a {
     text-decoration: none;
-  }
-  .logo {
+}
+.logo {
     font-size: 260%;
     margin-left: 10px;
     color: #AC3B15;
-  }
-  
-  .menu, .logo {
-    line-height: 75px;  
-  }
-  
-  .menu a {
+}
+.menu, .logo {
+    line-height: 75px;
+}
+.menu a {
     color: inherit;
-  }
-
-
+}
 /*menu hover animation*/
 .menu a:hover{
-border-bottom: 1px solid #3a3a3a;
-color: #AC3B15;
+    border-bottom: 1px solid #3a3a3a;
+    color: #AC3B15;
 }
-
 /* Active page underline */
 .active{
     border-bottom: 1px solid #3a3a3a;
 }
-
 .section-hero {
     height: 600px;
     width: 100%;
     overflow: hidden;
     position: relative;
 }
-
 .hero-image{
     background: url('../images/hero-image.jpg') no-repeat center center;
     height: 600px;
     width: 100%;
     background-size: cover;
 }
-
 .aside-box {
     display: flex;
     justify-content: space-between;
     height: 400px;
 }
-
 .aside-heading {
-   font-size: 300%;
-   text-align: center;
-   padding: 10vh 0 5vh 0;
-   color: #AC3B15; 
+    font-size: 300%;
+    text-align: center;
+    padding: 10vh 0 5vh 0;
+    color: #AC3B15;
 }
-
 /* Aside text positioning and style */
 .aside-text {
     display: flex;
@@ -114,11 +99,9 @@ color: #AC3B15;
     background-color: #66BFFF;
     padding: 0 10px;
 }
-
 .aside-text p{
     padding: 0 10px;
 }
-
 .aside-image {
     width: 100%;
     height: 400px;
@@ -127,21 +110,18 @@ color: #AC3B15;
     background-position: center;
     background-size: cover;
 }
-
 .how-it-works-heading, .testimonials h2, .pricing-heading {
     margin: 80px 0 10px 0;
     color: #AC3B15;
     font-size: 250%;
     text-align: center;
 }
-
 .how-it-works-container {
     display: flex;
     justify-content: space-between;
     align-items: center;
     margin-bottom: 30px;
 }
-
 .how-it-works-left {
     height: 400px;
     width: 20%;
@@ -151,24 +131,20 @@ color: #AC3B15;
     gap: 80px;
     margin-left: 4vw;
 }
-
 .how-it-works-container h3 {
     color: #AC3B15;
     font-size: 170%;
     text-align: center;
 }
-
 hr {
     border-top: 1px solid #3a3a3a;
     width: 100%;
     margin: 10px 0;
 }
-
 .how-it-works-container p {
     font-size: 110%;
     text-align: center;
 }
-
 .how-it-works-right {
     height: 400px;
     width: 20%;
@@ -178,7 +154,6 @@ hr {
     gap: 80px;
     margin-right: 4vw;
 }
-
 /* How it works image style */
 .how-it-works-middle {
     background-image: url('../images/how-image.jpg');
@@ -192,39 +167,33 @@ hr {
     border: 1px solid #AC3B15;
     box-shadow: 2px 2px 5px 0px rgba(0, 0, 0, 1);
 }
-
 .testimonials h2 {
     text-align: center;
 }
-
 .testimonials img {
     width: 150px;
     height: 150px;
     object-fit:cover;
     object-position:50% 10%;
-    border-radius: 5px;  
+    border-radius: 5px;
 }
-
 .card{
     width: 30%;
     background-color: #66BFFF;
     border: 3px solid #AC3B15;
     border-radius: 8px;
 }
-
 .card img {
     display: block;
     margin: 0 auto;
     padding-top: 2%;
 }
-
 .card p {
     text-align: center;
     padding: 2% 6% 5% 6%;
     line-height: 1.2;
     letter-spacing: 1px;
 }
-
 .card h3 {
     text-align: center;
     padding-top: 2%;
@@ -233,21 +202,18 @@ hr {
     font-size: 120%;
     color: #AC3B15;
 }
-
 .testimonials-box{
     width: 90%;
     display: flex;
     justify-content: space-evenly;
     padding: 30px 20px;
 }
-
 .pricing-box{
     display: flex;
     margin: 10vh 0 10vh 0;
     justify-content: space-evenly;
     letter-spacing: 2px;
 }
-
 .pricing-card{
     display: block;
     width: 400px;
@@ -256,49 +222,40 @@ hr {
     padding: 1%;
     margin: 0 3vw;
 }
-
 .pricing-card ul {
     list-style-type: none;
     text-align: left;
     font-size: 130%;
 }
-
 .pricing-card ul i {
     font-size: 150%;
     color: #AC3B15;
     padding: 0 10px;
 }
-
 .pricing-card h4, .pricing-card h3 {
     font-size: 240%;
     color: #AC3B15;
     margin-bottom: 20px;
 }
-
 .price{
     font-weight: bold;
     font-size: 220%;
     margin-bottom: 20%;
 }
-
 .pricing-card li{
     margin-bottom: 10%;
 }
-
 .pricing-card li:last-child{
     margin-bottom: 15%;
 }
-
 .pricing-complete{
     background-color: #66BFFF;
     border: 2px solid #AC3B15;
     box-shadow: 2px 2px 5px 0px rgba(0, 0, 0, 1);
 }
-
 .pricing-starter{
     border: 1px solid #3a3a3a;
 }
-
 /* Buttons style */
 .start-exercise-btn {
     background-color: #AC3B15;
@@ -311,45 +268,39 @@ hr {
     font-size: 16px;
     margin-bottom: 10px;
     border-radius: 5px;
-  }
-
-  /* Hover animation for buttons */
-  .button:hover{
+}
+/* Hover animation for buttons */
+.button:hover{
     box-shadow: 2px 2px 5px 0px rgba(0, 0, 0, 1);
     color: #AC3B15;
     background-color: white;
     transition: 0.5s;
     font-size: 120%;
-  }
-
-  footer{
+}
+footer{
     background-color: #66BFFF;
     font-size: 280%;
     text-align: center;
-  }
-
-  footer a i{
+}
+footer a i{
     padding: 3vh 5vw;
     color: #AC3B15;
-  }
-
-  /********** Sign Up Page **********/
-  /* For background image */
-  html, body {
+}
+/********** Sign Up Page **********/
+/* For background image */
+html, body {
     min-height: 100%;
-  }
- /**********************/
-
-  .form-box h2 {
+}
+/**********************/
+.form-box h2 {
     margin-top: 15px;
     color: #AC3B15;
     letter-spacing: 2px;
     font-size: 200%;
     margin-bottom: 30px;
-  }
-
-  /* Form background image*/
-  .form-box{
+}
+/* Form background image*/
+.form-box{
     display: flex;
     row-gap: 6vh;
     align-items: center;
@@ -358,9 +309,9 @@ hr {
     background-position: center;
     background-size: cover;
     min-height: 100%;
-  }
-  /* Form positioning and syle */
-  .inner-box{
+}
+/* Form positioning and syle */
+.inner-box{
     overflow: auto;
     display: flex;
     justify-content: center;
@@ -371,216 +322,181 @@ hr {
     font-size: 150%;
     margin:100px 0 25px 50px;
     min-height: 85vh;
-  }
-
-  .inner-box form {
+}
+.inner-box form {
     display: flex;
     flex-direction: column;
     align-items:flex-start;
     padding: 15px;
-    width: 60%; 
-  }
-
-  .inner-box input{
+    width: 60%;
+}
+.inner-box input{
     padding: 10px;
     margin: 25px 0;
     width: 100%;
     border: 2px solid #3a3a3a;
-  }
-
-  .inner-box input[type=submit]{
+}
+.inner-box input[type=submit]{
     background-color: #AC3B15;
     padding: 20px;
     font-size: 90%;
     margin: 10px 0 0 0;
-  }
-
-  .inner-box input[type=submit]:hover{
+}
+.inner-box input[type=submit]:hover{
     box-shadow: 2px 2px 5px 0px rgba(0, 0, 0, 1);
     color: #AC3B15;
     background-color: #3a3a3a;
     padding: 25px;
     font-size: 95%;
     transition: 0.5s;
-  }
- 
-  /********** Gallery  **************/
-  .photos{
+}
+/********** Gallery **************/
+.photos{
     margin: 100px 30px;
-    }
-
-  .image-wrapper{
+}
+.image-wrapper{
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     grid-template-rows: repeat(4, 3fr);
     grid-gap: 15px;
-    }
-
-  .image-wrapper img {
+}
+.image-wrapper img {
     width: 100%;
     height: 50vh;
     min-height: 300px;
     object-fit: cover;
     display: block;
-    }
-
-    /*Confirmation Page */
-    .confirmation-box{
-        margin: 18% auto;
-        text-align:center;
-        font-size: 210%;
-        min-height: 70vh;
-    }
-
-    .confirmation-text{
-        color: #AC3B15;
-        padding: 5%;
-        margin-bottom: 5%;
-    }
-
-    .back-to-homepage{
-        text-decoration: none;
-        color: #AC3B15;
-        padding: 1.5%;
-        background-color: #66BFFF;
-        border: 2px solid #AC3B15;
-        border-radius: 8px;
-    }
-
-    .back-to-homepage:hover{
-        box-shadow: 2px 2px 5px 0px rgba(0, 0, 0, 1);
-        transition: 0.5s;
-    }
-
- /****************  MEDIA QUERIES   ***********************/
-
-
+}
+/*Confirmation Page */
+.confirmation-box{
+    margin: 18% auto;
+    text-align:center;
+    font-size: 210%;
+    min-height: 70vh;
+}
+.confirmation-text{
+    color: #AC3B15;
+    padding: 5%;
+    margin-bottom: 5%;
+}
+.back-to-homepage{
+    text-decoration: none;
+    color: #AC3B15;
+    padding: 1.5%;
+    background-color: #66BFFF;
+    border: 2px solid #AC3B15;
+    border-radius: 8px;
+}
+.back-to-homepage:hover{
+    box-shadow: 2px 2px 5px 0px rgba(0, 0, 0, 1);
+    transition: 0.5s;
+}
+/**************** MEDIA QUERIES ***********************/
 /* To hide the icons over 840px width */
 .menu-icon{
     display: none;
 }
-        
-/* Media queries for  max-width: 985px */
+/* Media queries for max-width: 985px */
 /* Aside section (985px) */
 @media screen and (max-width: 985px) {
     .aside-heading {
         font-size: 220%;
         padding: 5vh 10px 2.5vh 10px;
-    }
-
+   }
     .aside-text {
         font-size: 150%;
         letter-spacing: 2px;
         text-align: center;
         padding: 0 8px;
-    }
-
-/* How it works section (985px) */
-.how-it-works-middle {
-    width: 350px;
-    height: 350px;
-    border-radius: 50%;
-    margin-top: 20px;
-    }
-
-/* Pricing section (985px) */
-.pricing-box{
-    flex-direction: column;
-    align-items: center;
-    row-gap: 5vh;
-    }
-
-/* Sign up form (985px) */
-.inner-box form {
-    width: 80%; 
-  }
-
-.inner-box{
-    width: 60vw;
-  }
-
-  /* Gallery (985px) */
-.photos{
-    margin: 80px 20px;
+   }
+   /* How it works section (985px) */
+    .how-it-works-middle {
+        width: 350px;
+        height: 350px;
+        border-radius: 50%;
+        margin-top: 20px;
+   }
+   /* Pricing section (985px) */
+    .pricing-box{
+        flex-direction: column;
+        align-items: center;
+        row-gap: 5vh;
+   }
+   /* Sign up form (985px) */
+    .inner-box form {
+        width: 80%;
+   }
+    .inner-box{
+        width: 60vw;
+   }
+   /* Gallery (985px) */
+    .photos{
+        margin: 80px 20px;
+   }
+    .image-wrapper{
+        grid-template-columns: repeat(2, 1fr);
+        grid-template-rows: 2fr;
+        grid-gap: 15px;
+   }
+   /*Confirmation Page (985px)*/
+    .confirmation-box{
+        font-size: 170%;
+   }
 }
-
-.image-wrapper{
-    grid-template-columns: repeat(2, 1fr);
-    grid-template-rows: 2fr;
-    grid-gap: 15px;
-  }
-
-  /*Confirmation Page  (985px)*/
-.confirmation-box{
-    font-size: 170%;
-  }
-}
-
 /* media queries max-width 840px*/
 /* Header (840px) */
 @media screen and (max-width: 840px) {
     .menu-text{
         display: none;
-    }
+   }
     .menu-icon{
         display: inline-block;
         font-size: 130%;
-    }
-
+   }
     .menu{
         gap: 4rem;
-    }
-
+   }
     .logo {
         font-size: 170%;
-    }
-    
+   }
     .menu, .logo{
         line-height: 60px;
-    }
-
-     /*Confirmation Page  (840px)*/
+   }
+   /*Confirmation Page (840px)*/
     .confirmation-box{
         font-size: 150%;
-    }
+   }
 }
-
 /* Media queries for max-width: 785px */
 /* Aside section (785px) */
 @media screen and (max-width: 785px) {
     .aside-heading {
         font-size: 175%;
         padding: 4vh 10px 2vh 10px;
-    }
-
+   }
     .aside-box{
         flex-direction: column;
-    }
+   }
     .aside-text {
         font-size: 130%;
         width: 100%;
         padding: 15px 0;
-    }
-
-    /* How it works section (785px) */
+   }
+   /* How it works section (785px) */
     .how-it-works-container {
         flex-direction: column;
-    }
-
+   }
     .how-it-works-left, .how-it-works-right{
         width: 60%;
-    }
-
-    /* Testimonials section (785px) */
+   }
+   /* Testimonials section (785px) */
     .testimonials h2 {
         margin-bottom: 25px;
-    }
-
+   }
     .card{
         width: 80%;
         margin-bottom: 15%;
-    }
-    
+   }
     .testimonials-box{
         width: 90%;
         display: flex;
@@ -588,196 +504,163 @@ hr {
         align-items: center;
         justify-content: space-between;
         padding: 0 20px;
-    }
-
-    /* Gallery (785px) */
+   }
+   /* Gallery (785px) */
     .photos{
         margin: 60px 15px;
-      }
-    
-      .image-wrapper{
+   }
+    .image-wrapper{
         display: grid;
         grid-template-columns: repeat(1, 1fr);
         grid-template-rows: 1fr;
         grid-gap: 15px;
-      }
+   }
 }
-
 /* Media queries for max-width: 670px */
 /* Aside section (670px)*/
 @media screen and (max-width: 670px) {
     .aside-heading {
         font-size: 150%;
         letter-spacing: 1px;
-    }
-
+   }
     .aside-text{
         font-size: 110%;
-        padding: 8px 0;   
-    }
-
-    /* Pricing Section (670px) */ 
+        padding: 8px 0;
+   }
+   /* Pricing Section (670px) */
     .pricing-card{
         width: 300px;
-    }
-
+   }
     .pricing-card ul {
         font-size: 105%;
-    }
-    
+   }
     .pricing-card ul i {
         font-size: 125%;
         padding: 0 8px;
-    }
-    
+   }
     .pricing-card h4, .pricing-card h3 {
         font-size: 200%;
         margin-bottom: 14px;
-    }
-    
+   }
     .price{
         font-size: 170%;
         margin-bottom: 16%;
-    }
-    
+   }
     .pricing-card li{
         margin-bottom: 8%;
-    }
-    
+   }
     .pricing-card li:last-child{
         margin-bottom: 12%;
-    }
-    
+   }
     .start-exercise-btn {
         padding: 13px 28px;
         font-size: 16px;
         margin-bottom: 8px;
         border-radius: 4px;
-    }
-
-      /* Sign up form (670px) */
+   }
+   /* Sign up form (670px) */
     .inner-box form {
-    width: 80%; 
-    }
-
-   .inner-box{
-    width: 95vw;
-    margin: auto;
-    min-height: 100vh;
+        width: 80%;
    }
-
-  .form-box h2 {
-    font-size: 140%;
+    .inner-box{
+        width: 95vw;
+        margin: auto;
+        min-height: 100vh;
    }
-
-  .inner-box input[type=submit]{
-    padding: 15px;
-    font-size: 80%;
-    margin: 10px 0 0 0;
-  }   
+    .form-box h2 {
+        font-size: 140%;
+   }
+    .inner-box input[type=submit]{
+        padding: 15px;
+        font-size: 80%;
+        margin: 10px 0 0 0;
+   }
 }
-
 /* Media queries for max-width: 560px */
 /* Header */
 @media screen and (max-width: 560px){
-
-.header{
-    flex-direction: column;
+    .header{
+        flex-direction: column;
+   }
+    .menu, .logo{
+        line-height: 40px;
+   }
+   /* Aside section (560px) */
+    .aside-heading {
+        font-size: 110%;
+   }
+    .aside-text{
+        font-size: 90%;
+   }
+   /* How it works section (560px) */
+    .how-it-works-heading {
+        margin: 64px 0 8px 0;
+        font-size: 200%;
+   }
+    .how-it-works-container h3 {
+        font-size: 136%;
+        text-align: center;
+   }
+    .how-it-works-container p {
+        font-size: 90%;
+        text-align: center;
+   }
+   /* Testimonials (560px) */
+    .testimonials h2 {
+        font-size: 170%;
+        letter-spacing: 2px;
+   }
+   /*Confirmation Page (560px)*/
+    .confirmation-box{
+        margin-top: 30%;
+        font-size: 120%;
+   }
 }
-
-.menu, .logo{
-     line-height: 40px;
-}
-
-/* Aside section (560px) */
-.aside-heading {
-    font-size: 110%;
-}
-
-.aside-text{
-    font-size: 90%;
-}
-
-/* How it works section (560px) */
-.how-it-works-heading {
-    margin: 64px 0 8px 0;
-    font-size: 200%;
-}
-
-.how-it-works-container h3 {
-    font-size: 136%;
-    text-align: center;
-}
-
-.how-it-works-container p {
-    font-size: 90%;
-    text-align: center;
-}
-
-/* Testimonials (560px) */
-.testimonials h2 {
-    font-size: 170%;
-    letter-spacing: 2px;
-    }
-
-/*Confirmation Page  (560px)*/
-.confirmation-box{
-    margin-top: 30%;
-    font-size: 120%;
-    }
-}
-
 /* Media queries for max-width: 400px */
 @media screen and (max-width: 400px){
     .logo {
         font-size: 130%;
-    }
-
-      .how-it-works-middle {
+   }
+    .how-it-works-middle {
         width: 240px;
         height: 240px;
-    }
-
+   }
     .testimonials h2 {
         font-size: 110%;
-    }
-
+   }
+    .testimonials-box{
+        padding: 0;
+        margin: auto;
+   }
     .pricing-heading{
         font-size: 130%;
-    }
-
+   }
     .pricing-card{
         width: 240px;
-    }
-    
+   }
     .pricing-card ul {
         font-size: 100%;
-    }
-    
+   }
     .pricing-card ul i {
         font-size: 100%;
-    }
-    
+   }
     .pricing-card h4, .pricing-card h3 {
         font-size: 150%;
-    }
-    
+   }
     .price{
         font-size: 150%;
-    }
-
+   }
     footer{
         font-size: 150%;
-      }
+   }
     .inner-box{
         font-size: 120%;
         margin:100px 0 50px;
         min-height: 100vh;
-      }
-
-      .menu {
+   }
+    .menu {
         gap: 1.5rem;
         font-size: 90%;
         letter-spacing: 1px;
-      }
+   }
 }
