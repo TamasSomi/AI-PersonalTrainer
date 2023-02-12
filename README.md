@@ -187,7 +187,7 @@ Markup : <details>
 * All the fields are mandatory, if the user try to submit without filling up any of the fields, an alert should pop up.
 * If the user try to submit with a non valid email address, an alert should pop up.
 
-![a screenshot of the main page](docs/testcasesgallery.webp)
+![a screenshot of the main page](docs/testcasessignup.webp)
 
 ### Confirmation Page ###
 
