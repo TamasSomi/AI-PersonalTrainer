@@ -189,7 +189,7 @@ hr {
     border-radius: 50%;
     margin-top: 30px;
     border: 1px solid #AC3B15;
-    box-shadow: 2px 2px 5px 0px rgba(0, 0, 0, 1);
+    box-shadow: 2px 2px 5px 0px #000000;
 }
 
 .testimonials h2 {
@@ -291,7 +291,7 @@ hr {
 .pricing-complete{
     background-color: #66BFFF;
     border: 2px solid #AC3B15;
-    box-shadow: 2px 2px 5px 0px rgba(0, 0, 0, 1);
+    box-shadow: 2px 2px 5px 0px #000000;
 }
 
 .pricing-starter{
@@ -313,8 +313,8 @@ hr {
 }
 
 /* Hover animation for buttons */
-.button:hover{
-    box-shadow: 2px 2px 5px 0px rgba(0, 0, 0, 1);
+.start-exercise-btn:hover{
+    box-shadow: 2px 2px 5px 0px #000000;
     color: #AC3B15;
     background-color: white;
     transition: 0.5s;
@@ -360,7 +360,7 @@ footer a i{
     justify-content: center;
     flex-direction: column;
     align-items: center;
-    background-color:rgba(204, 234, 255, 0.5);
+    background-color:#cceaff80;
     width: 40vw;
     font-size: 150%;
     margin:100px 0 25px 50px;
@@ -390,7 +390,7 @@ footer a i{
 }
 
 .inner-box input[type=submit]:hover{
-    box-shadow: 2px 2px 5px 0px rgba(0, 0, 0, 1);
+    box-shadow: 2px 2px 5px 0px #000000;
     color: #AC3B15;
     background-color: #3a3a3a;
     padding: 25px;
@@ -442,7 +442,7 @@ footer a i{
 }
 
 .back-to-homepage:hover{
-    box-shadow: 2px 2px 5px 0px rgba(0, 0, 0, 1);
+    box-shadow: 2px 2px 5px 0px #000000;
     transition: 0.5s;
 }
 
