@@ -6,7 +6,7 @@ The users dont't need to go to the Gym. They can exercise at home or in a park e
 
 The live link can be found here: https://tamassomi.github.io/AI-PersonalTrainer/
 
-![screenshots of the website on differend screen sizes](assets/images/responsice-screenshot.jpg "Responsive Screenshot")
+![screenshots of the website on differend screen sizes](docs/responsice-screenshot.jpg "Responsive Screenshot")
 
 ## User Stories ##
 
@@ -43,7 +43,7 @@ The live link can be found here: https://tamassomi.github.io/AI-PersonalTrainer/
 * The section is responsive looks good in any size of screen.
 * The pictures are not streched or pixeled and have alt attribute for accessibility.
 
-![female exercising](assets/images/aside.jpg "Aside screenshot")
+![female exercising](docs/aside.jpg "Aside screenshot")
 
 
 ### How it Works Section  ###
@@ -52,7 +52,7 @@ The live link can be found here: https://tamassomi.github.io/AI-PersonalTrainer/
 * Using Fontawsome icons for designe purposes.
 * The section is responsive and looks good on any size of screen.
 
-![a screenshot of the how it works section of the page](assets/images/how-it-works.jpg)
+![a screenshot of the how it works section of the page](docs/how-it-works.jpg)
 
 ### Testimonials section ###
 
@@ -60,7 +60,7 @@ The live link can be found here: https://tamassomi.github.io/AI-PersonalTrainer/
 * The images has alt attribute for accessibility.
 * The section looks good on any size of screen.   
 
-![a screenshot of the testimonials section of the page](assets/images/testimonials.jpg)
+![a screenshot of the testimonials section of the page](docs/testimonials.jpg)
 
 
 ### Pricing Section ###
@@ -71,7 +71,7 @@ The live link can be found here: https://tamassomi.github.io/AI-PersonalTrainer/
 * Both cards use Fontawsome icons for designe purposes.
 * The section is responsive and looks good on any size of screen.
 
-![a screenshot of the pricing section of the page](assets/images/pricing.jpg)
+![a screenshot of the pricing section of the page](docs/pricing.jpg)
 
 
 ### Sign Up Page ###
@@ -83,7 +83,7 @@ The live link can be found here: https://tamassomi.github.io/AI-PersonalTrainer/
 * The fields have placeholder attributes to help the user.
 * The section is responsive and looks good on any size of screen.
 
-![a screenshot of the sign up page](assets/images/form-page.jpg)
+![a screenshot of the sign up page](docs/form-page.jpg)
 
 ### Gallery ###
 
@@ -94,14 +94,14 @@ The live link can be found here: https://tamassomi.github.io/AI-PersonalTrainer/
 * The images are appropriate to the content.
 * The gallery is responsive and looks good on any size of screen.
 
-![a screenshot of the gallery page](assets/images/gallery.jpg)
+![a screenshot of the gallery page](docs/gallery.jpg)
 
 ### The Footer ###
 
 * The footer section includes links to the relevant social media sites for AI PersonalTrainer. The links will open to a new tab to allow easy navigation for the user.
 * The footer is valuable to the user as it encourages them to keep connected via social media.
 
-![a screenshot of the footer](assets/images/footer.jpg)
+![a screenshot of the footer](docs/footer.jpg)
 
 
 
@@ -125,7 +125,7 @@ The live link can be found here: https://tamassomi.github.io/AI-PersonalTrainer/
 - I used Rubik for text an Oswald fonts for headres from: https://fonts.google.com/
 - Color contrast checked and no alerts or errors for contrast
 (The error and alerts are because wave did not recognised as text the Font Awsome icons in the nav links for the responsive header.)
-![a screenshot of wave result](assets/images/wave.webp)
+![a screenshot of wave result](docs/wave.webp)
 
 - - - -
 
@@ -137,13 +137,13 @@ During the deployment proccess i changed a few elements.
 
 Markup : <details>
            <summary>Wireframe for desktop and tablets</summary>
-           ![desktop wireframe](assets/images/desktopwf.png)
+           ![desktop wireframe](docs/desktopwf.png)
          </details>
 
 
 Markup : <details>
            <summary>Mobile wireframe</summary>
-           ![mobile wireframe](assets/images/mobilewf.png)
+           ![mobile wireframe](docs/mobilewf.png)
          </details>
 
 - - - -
