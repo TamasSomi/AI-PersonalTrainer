@@ -4,7 +4,8 @@ This page is a landing page of a fictive application.
 The applications AI algorithm creates a plan for exercise according to the received details from the user. (thier goals current shape and time that they can spend with exercising) .
 The users dont't need to go to the Gym. They can exercise at home or in a park etc.
 
-The live link can be found here: https://tamassomi.github.io/AI-PersonalTrainer/
+The live link can be found here: 
+[Visit Webpage](https://tamassomi.github.io/AI-PersonalTrainer/)
 
 ![screenshots of the website on differend screen sizes](docs/responsice-screenshot.jpg "Responsive Screenshot")
 
@@ -105,7 +106,7 @@ The live link can be found here: https://tamassomi.github.io/AI-PersonalTrainer/
 
 
 
-The live link can be found here: https://tamassomi.github.io/AI-PersonalTrainer/
+The live link can be found here: [Visit Webpage](https://tamassomi.github.io/AI-PersonalTrainer/)
 
 - - - -
 
@@ -122,9 +123,9 @@ The live link can be found here: https://tamassomi.github.io/AI-PersonalTrainer/
 - Secondary background: color: #66BFFF
 - Logos and headers: #AC3B15
 - Text color: 3a3a3a;
-- I used Rubik for text an Oswald fonts for headres from: https://fonts.google.com/
-- Color contrast checked and no alerts or errors for contrast
-(The error and alerts are because wave did not recognised as text the Font Awsome icons in the nav links for the responsive header.)
+- I used Rubik for text an Oswald fonts for headers from: https://fonts.google.com/
+- Color contrast checked and no alerts or errors found for contrast.
+(The error and alerts are because wave did not recognise the Font Awsome icons in the nav links as text for the responsive header.)
 ![a screenshot of wave result](docs/wave.webp)
 
 - - - -
@@ -157,28 +158,72 @@ Markup : <details>
 
 ## Testing and bugs ##
 
+## Test Cases ##
+
+* To open the page go to [Github repository](https://github.com/TamasSomi/AI-PersonalTrainer)
+* Click on the green gitpod button
+* To open the live server use the python3 -m http.server command in the terminal.
+* A window will pop up on the right bottom of the screen, click on the open in browser button.
+
+### Main Page ###
+
+* The user should notice a navbar with tree links.
+* By hovering over an underline animation will indicate the action.
+* The active page will be always underlined.
+* By clicking on any of the nav elements the page should open in the same tab.
+
+![a screenshot of the main page](docs/testcasesmainpage.webp)
+
+### Gallery ###
+
+* The user should notice 11 images.
+* Now in the nav the gallery is underlined as this is the active page.
+
+![a screenshot of the main page](docs/testcasesgallery.webp)
+
+### Sign Up Page ###
+
+* The user should notice 3 fields with thier labels, First Name, Last Name, Email Address, and a Sign Up button.
+* All the fields are mandatory, if the user try to submit without filling up any of the fields, an alert should pop up.
+* If the user try to submit with a non valid email address, an alert should pop up.
+
+![a screenshot of the main page](docs/testcasesgallery.webp)
+
+### Confirmation Page ###
+
+* The user should be taken here, after succsessfully submitting the form.
+* The user should notice a Congratulation heading and a Back To Home Page button.
+* The button takes the user back to the home page in the same tab.
+
+![a screenshot of the main page](docs/testcasesconfirm.webp)
+
+- - - -
 ### Unfixed Bugs ###
 
-* Images in the gallery load a bit slowly. The problem could be solved by reducing teh files with squoosh but as it is just a learning project i think it would take too many time to upload and reduce and replace them in github as well one by one.
+* Images in the gallery load a bit slowly. The problem could be solved by reducing the files with squoosh. But as it is just a learning project, i think it would take too many time to upload and reduce and replace them in github as well one by one.
 
+- - - -
 ### Responsiveness ##
 
 * All pages have been tested for screens from 240px and up.
 * I used Chrome Developer Tool for testing and i tested all the pages with all the avialable phone simulations both in verical and horizontal mode.
 * The site is responsive on any screensizes and the images are not pixelled or stretched.
 
+- - - -
 ### Code Validation ###
 
 * HTML: The code passed the official [W3C validator](https://validator.w3.org/nu/?doc=https%3A%2F%2Ftamassomi.github.io%2FAI-PersonalTrainer%2F "W3C validator")
 
 * CSS The css code passed the official [Jigsaw validator](https://jigsaw.w3.org/css-validator/validator?uri=https%3A%2F%2Ftamassomi.github.io%2FAI-PersonalTrainer%2F&profile=css3svg&usermedium=all&warning=1&vextwarning=&lang=en "Jigsaw validator")
 
+- - - -
 ### Deployment ###
 
 The page was deployed to Github pages using gitpod.
 
 * All files and code has been submitted to Github pages using the 'git add', 'git commit' and 'git push' commands. Published the site by opening the settings - pages - main branch options.
 
+- - - -
 ## Credits ##
 
 * The layout is inspired by [Love Running Project](https://github.com/TamasSomi/love-running "Love Running Project") (How it works section) and helped me a lot with the form and the media queries.
@@ -192,3 +237,4 @@ The page was deployed to Github pages using gitpod.
 * The icons from [Font Awsome](https://fontawesome.com/ "Font Awsome")
 * The fonts i used [Google Fonts](https://fonts.google.com/ "Google Fonts")
 * I found the colors on [Adobe Color Creator](https://color.adobe.com/create/color-wheel# "Adobe Color Creator")
+- - - -
